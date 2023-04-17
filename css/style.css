@@ -3,3 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container1{
+    background-color: #ff6900;
+    box-shadow: black 0 0 3px 0;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0 10px 0;
+}
+
+.contain1-header{
+    color: white;
+}
+
+.logo{
+    width: 150px;
+}
