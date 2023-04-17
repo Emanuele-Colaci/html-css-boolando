@@ -33,7 +33,7 @@ header{
     /* INIZIO MAIN */
 .container2{
     max-width: 1170px;
-    margin: 30px auto; 
+    margin: 30px auto;
 }
 
 .row2{
@@ -50,6 +50,20 @@ header{
 
 .modello{
     width: 100%;
+}
+
+.offerta{
+    color: red;
+}
+
+.relative{
+    position: relative;
+    bottom: 50px;
+}
+
+.relative1{
+    position: relative;
+    bottom: 32px;
 }
 
 .sconto{
@@ -71,7 +85,7 @@ header{
 
 .heart{
     position: relative;
-    bottom: 92%;
+    bottom: 86%;
     left: 93%;
     background-color: white;
     margin-right: 350px;
@@ -80,7 +94,7 @@ header{
 
 .heart1{
     position: relative;
-    bottom: 89%;
+    bottom: 83%;
     left: 93%;
     background-color: white;
     margin-right: 350px;
@@ -88,6 +102,11 @@ header{
 }
 
 .contain2-main:hover .heart{
+    background-color: red;
+    margin-right: 350px;
+}
+
+.contain2-main:hover .heart1{
     background-color: red;
     margin-right: 350px;
 }
