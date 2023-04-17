@@ -124,3 +124,36 @@ header{
     width: 100%;
 }
     /* FINE MAIN */
+
+    /* INIZIO FOOTER */
+footer{
+    background-color: #1a1a1a;
+    color: white;
+}
+
+.container3{ 
+    max-width: 1170px;
+    margin: auto;
+}
+
+.contain1-footer{
+    margin: 20px 0 20px 0;
+    font-size: 10px;
+}
+
+.row3{
+    display: flex;
+    justify-content: space-between;
+}
+
+h3{
+    margin-bottom: 5px;
+    font-size: 10px;
+}
+
+li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 5px;
+}
+    /* FINE FOOTER */
