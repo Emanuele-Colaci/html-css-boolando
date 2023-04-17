@@ -3,15 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-.container1{
+    /* INIZIO HEADER */
+header{
     background-color: #ff6900;
     box-shadow: black 0 0 3px 0;
 }
 
-.row{
+.container1{ 
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row1{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 10px 0 10px 0;
 }
@@ -23,3 +28,80 @@
 .logo{
     width: 150px;
 }
+    /* FINE HEADER */
+
+    /* INIZIO MAIN */
+.container2{
+    max-width: 1170px;
+    margin: 30px auto; 
+}
+
+.row2{
+    display: flex;
+    flex-flow: wrap;
+}
+
+.col2{
+    width: calc(100% / 3 - 20px);
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.modello{
+    width: 100%;
+}
+
+.sconto{
+    background-color: red;
+    color: white;
+    padding: 2px 4px;
+    position: relative;
+    bottom: 60px;
+}
+
+.sconto-1{
+    background-color: green;
+    color: white;
+    padding: 2px 4px;
+    position: relative;
+    bottom: 60px;
+    
+}
+
+.heart{
+    position: relative;
+    bottom: 92%;
+    left: 93%;
+    background-color: white;
+    margin-right: 350px;
+    padding: 5px;
+}
+
+.heart1{
+    position: relative;
+    bottom: 89%;
+    left: 93%;
+    background-color: white;
+    margin-right: 350px;
+    padding: 5px;
+}
+
+.contain2-main:hover .heart{
+    background-color: red;
+    margin-right: 350px;
+}
+
+.modello-b{
+    display: none;
+}
+
+.contain2-main:hover .modello{
+    display: none;
+}
+
+.contain2-main:hover .modello-b{
+    display: inline;
+    width: 100%;
+}
+    /* FINE MAIN */
