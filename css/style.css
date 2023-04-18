@@ -27,6 +27,8 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 10px 0 10px 0;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .contain1-header{
@@ -51,6 +53,8 @@ header{
 .row2{
     display: flex;
     flex-flow: wrap;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .col2{
@@ -137,6 +141,8 @@ footer{
 .row3{
     display: flex;
     justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
 }
 
 h3{
