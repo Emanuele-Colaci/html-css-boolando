@@ -44,6 +44,10 @@ header{
     margin:30px auto;
 }
 
+.contain2-main{
+    position: relative;
+}
+
 .row2{
     display: flex;
     flex-flow: wrap;
@@ -64,45 +68,26 @@ header{
     color: red;
 }
 
-.relative{
-    position: relative;
-    bottom: 50px;
-}
-
-.relative1{
-    position: relative;
-    bottom: 32px;
+.label{
+    position: absolute;
+    bottom: 100px;
 }
 
 .sconto{
     background-color: red;
     color: white;
     padding: 2px 4px;
-    position: relative;
-    bottom: 60px;
 }
 
 .sconto-1{
     background-color: green;
     color: white;
-    padding: 2px 4px;
-    position: relative;
-    bottom: 60px;
-    
+    padding: 2px 4px; 
 }
 
 .heart{
-    position: relative;
-    bottom: 86%;
-    left: 93%;
-    background-color: white;
-    margin-right: 350px;
-    padding: 5px;
-}
-
-.heart1{
-    position: relative;
-    bottom: 83%;
+    position: absolute;
+    bottom: 90%;
     left: 93%;
     background-color: white;
     margin-right: 350px;
